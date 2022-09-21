@@ -1,0 +1,122 @@
+body{
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color:#f7f7f7;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: white;
+    height: 8vh;
+    padding-left: 10%;
+    padding-top: 20px;
+}
+#heading{
+    color: dodgerblue;
+}
+a{
+    text-decoration: none;
+}
+#add{
+    color: black;
+    font-size: large;
+}
+i{
+    color: dodgerblue;   
+}
+.add-task{
+    float: right;
+    padding-right: 100px;
+    padding-top: 30px;    
+}
+.main-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start ;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-left: 120px;
+    width: 100%;
+}
+.cards{
+    background-color:white;
+    border-radius: 10px;
+    width: 25%;
+    margin: 10px;
+    height: 40vh;
+}
+.cards:hover{
+    box-shadow: 0 0 5px 5px rgb(222, 218, 218);
+}
+.cards h3{
+    padding-left: 20px;
+    padding-top: 25px;
+    color: dodgerblue;
+    text-decoration: none;
+}
+input{
+    margin-left: 20px;
+}
+.striked{
+    color: gray;
+    text-decoration: line-through;
+}
+ 
+
+/* .. */
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.add-task-box{
+    position: absolute;   
+    top: 184px;
+    left: 433px;
+    width: 500px;
+    height: 250px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #67676729;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+}    
+h3{
+    font-size: large;
+    padding-left: 25px;
+    display: inline-block;
+}
+.close{
+    float: right;
+    color: grey;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: x-large;
+}
+#text{
+     width: 95%;
+     margin: 7px;
+     border: .5px solid grey;
+}
+#btn{
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+    border-radius: 3px;
+    width: 135px;
+    height: 30px;
+    margin-right: 10px;
+    float: right;
+}
+.project{
+    top: 0px;
+left: 0px;
+width: 1366px;
+height: 1036px;
+opacity: 0.4;
+}
